@@ -1,88 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mengyueli/Projects/ecommerce/skinet/API/API.csproj": {}
+    "/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/mengyueli/Projects/ecommerce/skinet/API/API.csproj": {
+    "/Users/mengyueli/Projects/ecommerce/skinet/core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mengyueli/Projects/ecommerce/skinet/API/API.csproj",
-        "projectName": "API",
-        "projectPath": "/Users/mengyueli/Projects/ecommerce/skinet/API/API.csproj",
-        "packagesPath": "/Users/mengyueli/.nuget/packages/",
-        "outputPath": "/Users/mengyueli/Projects/ecommerce/skinet/API/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/mengyueli/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/mengyueli/Projects/ecommerce/skinet/Core/Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/mengyueli/Projects/ecommerce/skinet/Core/Core.csproj",
+        "projectUniqueName": "/Users/mengyueli/Projects/ecommerce/skinet/core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/mengyueli/Projects/ecommerce/skinet/Core/Core.csproj",
+        "projectPath": "/Users/mengyueli/Projects/ecommerce/skinet/core/Core.csproj",
         "packagesPath": "/Users/mengyueli/.nuget/packages/",
-        "outputPath": "/Users/mengyueli/Projects/ecommerce/skinet/Core/obj/",
+        "outputPath": "/Users/mengyueli/Projects/ecommerce/skinet/core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mengyueli/.nuget/NuGet/NuGet.Config"
@@ -149,8 +78,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mengyueli/Projects/ecommerce/skinet/Core/Core.csproj": {
-                "projectPath": "/Users/mengyueli/Projects/ecommerce/skinet/Core/Core.csproj"
+              "/Users/mengyueli/Projects/ecommerce/skinet/core/Core.csproj": {
+                "projectPath": "/Users/mengyueli/Projects/ecommerce/skinet/core/Core.csproj"
               }
             }
           }

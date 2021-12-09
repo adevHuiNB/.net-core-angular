@@ -1,0 +1,15 @@
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/bin/Debug/net6.0/Infrastructure.deps.json
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/bin/Debug/net6.0/Infrastructure.dll
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/bin/Debug/net6.0/ref/Infrastructure.dll
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/bin/Debug/net6.0/Core.dll
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/bin/Debug/net6.0/Core.pdb
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfo.cs
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CopyComplete
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/obj/Debug/net6.0/Infrastructure.dll
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/obj/Debug/net6.0/ref/Infrastructure.dll
+/Users/mengyueli/Projects/ecommerce/skinet/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb
