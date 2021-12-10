@@ -75,14 +75,14 @@
         }
       }
     },
-    "/Users/mengyueli/Projects/ecommerce/skinet/Core/Core.csproj": {
+    "/Users/mengyueli/Projects/ecommerce/skinet/core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mengyueli/Projects/ecommerce/skinet/Core/Core.csproj",
+        "projectUniqueName": "/Users/mengyueli/Projects/ecommerce/skinet/core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/mengyueli/Projects/ecommerce/skinet/Core/Core.csproj",
+        "projectPath": "/Users/mengyueli/Projects/ecommerce/skinet/core/Core.csproj",
         "packagesPath": "/Users/mengyueli/.nuget/packages/",
-        "outputPath": "/Users/mengyueli/Projects/ecommerce/skinet/Core/obj/",
+        "outputPath": "/Users/mengyueli/Projects/ecommerce/skinet/core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mengyueli/.nuget/NuGet/NuGet.Config"
@@ -149,8 +149,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mengyueli/Projects/ecommerce/skinet/Core/Core.csproj": {
-                "projectPath": "/Users/mengyueli/Projects/ecommerce/skinet/Core/Core.csproj"
+              "/Users/mengyueli/Projects/ecommerce/skinet/core/Core.csproj": {
+                "projectPath": "/Users/mengyueli/Projects/ecommerce/skinet/core/Core.csproj"
               }
             }
           }

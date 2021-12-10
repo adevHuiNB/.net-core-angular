@@ -51,3 +51,7 @@
 /Users/mengyueli/Projects/ecommerce/skinet/API/obj/Debug/net6.0/ref/API.dll
 /Users/mengyueli/Projects/ecommerce/skinet/API/obj/Debug/net6.0/API.pdb
 /Users/mengyueli/Projects/ecommerce/skinet/API/obj/Debug/net6.0/API.genruntimeconfig.cache
+/Users/mengyueli/Projects/ecommerce/skinet/API/bin/Debug/net6.0/Core.dll
+/Users/mengyueli/Projects/ecommerce/skinet/API/bin/Debug/net6.0/Infrastructure.dll
+/Users/mengyueli/Projects/ecommerce/skinet/API/bin/Debug/net6.0/Infrastructure.pdb
+/Users/mengyueli/Projects/ecommerce/skinet/API/bin/Debug/net6.0/Core.pdb
