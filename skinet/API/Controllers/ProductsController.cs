@@ -6,6 +6,7 @@ using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Core.Specifications;
 
 namespace API.Controllers
 {
@@ -14,31 +15,41 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        private readonly IProductRepository repo;
-        public ProductsController(IProductRepository repo)
+        private readonly IGenericRepository<Product> productsRepo;
+        private readonly IGenericRepository<ProductBrand> productBrandRepo;
+        private readonly IGenericRepository<ProductType> productTypeRepo;
+
+        public ProductsController(IGenericRepository<Product> productsRepo,
+         IGenericRepository<ProductBrand> productBrandRepo, 
+         IGenericRepository<ProductType> productTypeRepo)
         {
-            this.repo = repo;
+            this.productsRepo = productsRepo;
+            this.productBrandRepo = productBrandRepo;
+            this.productTypeRepo = productTypeRepo;
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts(){
-            var products = await repo.GetProductsAsync();
+
+            var spec = new ProductWithTypesAndBrandsSpecification();
+            var products = await productsRepo.ListAsync(spec);
             return Ok(products);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id){
-            return await repo.GetProductByIdAsync(id);
+            var spec = new ProductWithTypesAndBrandsSpecification(id);
+            return await productsRepo.GetEntityWithSpec(spec);
 
         }
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands(){
-            return  Ok(await repo.GetProductBrandsAsync());
+            return  Ok(await productBrandRepo.ListAllAsync());
         }
          
         [HttpGet("Type")]
         public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes(){
-            return  Ok(await repo.GetProductTypesAsync());
+            return  Ok(await productTypeRepo.ListAllAsync());
         }
     }
 }
