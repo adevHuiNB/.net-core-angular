@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BOh2+gJhNzzfzAraYj9sJw8t67ctb2Jj6NoRDB/cBh2WM1npC8y4wc8an4YWO2KrItsiTkik3ZjK8AMLFM5W/g==",
+  "dgSpecHash": "HbkNL3SbCu3rspTNvzuNW0YK0/OnvlPVPaijSvdK2joxbSferKd30Tfkf3T6sjaPPUbu+heSYygx0UsGX1lCiw==",
   "success": true,
   "projectFilePath": "/Users/mengyueli/Projects/ecommerce/skinet/API/API.csproj",
   "expectedPackageFiles": [
+    "/Users/mengyueli/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/mengyueli/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/Users/mengyueli/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/mengyueli/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/mengyueli/.nuget/packages/microsoft.data.sqlite.core/6.0.0/microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
     "/Users/mengyueli/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "/Users/mengyueli/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.0/microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
@@ -37,6 +40,7 @@
     "/Users/mengyueli/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/mengyueli/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/Users/mengyueli/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/mengyueli/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/Users/mengyueli/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/mengyueli/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/Users/mengyueli/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512"
